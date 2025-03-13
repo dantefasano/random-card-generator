@@ -34,8 +34,8 @@ function generateCard() {
 }
 
 // Returns a random element from an array
-function getRandomElement(array) {
-  return array[Math.floor(Math.random() * array.length)];
+function getRandomElement(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
 }
 
 // Returns the suit symbol
